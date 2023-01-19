@@ -1,0 +1,21 @@
+name = "PingPongScoreCounter"
+uuid = "9c79e7b4-c9d9-46e8-8f03-76d2281732d3"
+authors = ["anand jain <anandj@uchicago.edu>"]
+version = "0.1.0"
+
+[deps]
+DSP = "717857b8-e6f2-59f4-9121-6e50c889abd2"
+FileIO = "5789e2e9-d7fb-5bc7-8068-2c6fae9b9549"
+Glob = "c27321d9-0574-5035-807b-f59d2c89b15c"
+LibSndFile = "b13ce0c6-77b0-50c6-a2db-140568b8d1a5"
+LsqFit = "2fda8390-95c7-5789-9bda-21331edee243"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+PortAudio = "80ea8bcb-4634-5cb3-8ee8-a132660d1d2d"
+SampledSignals = "bd7594eb-a658-542f-9e75-4c4d8908c167"
+WAV = "8149f6b0-98f6-5db9-b78f-408fbbb8ef88"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
